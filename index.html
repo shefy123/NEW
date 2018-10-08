@@ -21,7 +21,7 @@
     <script src="script.js"></script>
 </head>
 
-<body onload="initialize()">
+<body onload="forEng()">
 
     <!-- Write your HTML code here! Any data that will be fetched from the API should not be hard-coded here! -->
     <header>
@@ -33,26 +33,26 @@
 
         </div>
         <div class="flag">
-            <img src="images/en-flag.png" onclick="initialize()" alt="">
-            <img src="images/ur-flag.png" onclick="initializeUr()" alt="">
-            <img src="images/zh-flag.png" onclick="initializePk()" alt="">
+            <img src="images/en-flag.png" onclick="forEng()" alt="">
+            <img src="images/ur-flag.png" onclick="forUrdu()" alt="">
+            <img src="images/zh-flag.png" onclick="forChinies()" alt="">
         </div>
     </header>
     <nav class="menu">
         <button onclick="ham()" class="ham"><i class="fas fa-bars"></i></button>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link active" href="#">PRESS</a>
+                <a id="option1" class="nav-link" href="#"></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">HIRING HEADQUARTERS</a>
+                <a id="option2" class="nav-link" href="#"></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">ENTERPRICE</a>
+                <a id="option3" class="nav-link" href="#"></a>
             </li>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">PRIVACY</a>
+                <a id="option4" class="nav-link" href="#"></a>
             </li>
         </ul>
 
@@ -83,15 +83,9 @@
                 </div>
                 <div id="title">
                     <h5 class="card-title"></h5>
-                    <p class="card-text"> Anybody who has ever observed a lotus flower emerging from a murky pond cannot fail to see the beauty
-                        of this exquisite plant. The flower always looks so clean and pure against the background of the
-                        dirty pond. Because of this the lotus flower has come to be associated with purity and beauty in
-                        the religions of Buddhism and Hinduism respectively; the ancient Egyptians scholars observed that
-                        in the night-time the lotus closed its flowers and sank into the water, and came up with a different
-                        association with the flower related to rebirth and the Sun; in actual fact the Lotus slowly emerges
-                        from a pond over a three day period and then blooms in the morning until mid-afternoon. It can therefore
-                        be assumed that the lotus flower meaning is different between cultures, though in fact they share
-                        many similarities.</p>
+                    <p class="card-text"> 
+                        <!-- text of frst card -->
+                    </p>
                 </div>
             </div>
         </div>
@@ -105,10 +99,7 @@
                 <div id="second" class="card-body">
                     <h5 class="card-title"></h5>
                     <p class="card-text">
-                        Our special flowers on sale and discounted gifts are fresh and fabulous–fresh, beautiful flowers and gifts they'll never
-                        forget at sale prices you'll love. Your wallet will consider them cheap flowers, but the recipient
-                        will never know that you saved a bundle on these gorgeous, stylish gifts without sacrificing any
-                        of the quality you've come to expect from 1800Flowers.
+                       <!-- second card text -->
                     </p>
 
                 </div>
