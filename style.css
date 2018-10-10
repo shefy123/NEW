@@ -1,19 +1,25 @@
 body, body * {
     font-family: 'Montserrat', sans-serif;
     color: #494949;
-}
 
+}
+html {
+    width: 100%;
+}
 body {
-    background-color: #40a63d1a;
+   
+    background-color: #f8f9fa;
 }
 
-/* Write all your CSS here! */
-
+#main-container {
+    background-color: #ebf5eb;
+    padding-top: 20px;
+}
 header {
     display: flex;
     justify-content: space-between;
     margin: 16px;
-  
+    background-color: #f8f9fa;
 }
 .icon-flex {
       display: flex;
@@ -37,6 +43,10 @@ header {
     color: white;
     font-size: 12px;
 }
+.flag img {
+    cursor: pointer;
+    margin: 6px;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -53,9 +63,22 @@ header {
 .card-body {
     display: flex;
     justify-content: space-between;
+    background-color: #f9f9f9;
 }
-#card-text i {
+.card-text i {
   color: #5ea32a;
+}
+#date  {
+    font-weight:500;
+}
+h5 {
+    font-weight: bold;
+}
+
+.img-button button {
+    width: 260px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .fas {
     font-size: 20px;
@@ -74,6 +97,7 @@ span {
 }
  em {
     color: white;
+    font-size: 14px;
 }
 .menu-section .card-body{
     display: block;

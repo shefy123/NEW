@@ -1,5 +1,6 @@
 // Write all your Javascript here!
-
+let date = new Date();
+let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
 function changeLanguages(index) {
     document.querySelector('#image').style = `background-image:url(${index.imageURL})`
@@ -11,7 +12,7 @@ function changeLanguages(index) {
     document.querySelector('#option2').innerHTML = index.menuOptions[1].toUpperCase();
     document.querySelector('#option3').innerHTML = index.menuOptions[2].toUpperCase();
     document.querySelector('#option4').innerHTML = index.menuOptions[3].toUpperCase();
-
+    document.querySelector(".card-body #date").innerHTML =`${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()} - ${date.getHours()}h ${date.getMinutes()}m`
 }
 
 // FOR ENGLISH LANGUAGE
